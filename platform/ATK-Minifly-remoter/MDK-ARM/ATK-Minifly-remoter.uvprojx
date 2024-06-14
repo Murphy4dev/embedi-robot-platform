@@ -362,7 +362,7 @@
               <MiscControls />
               <Define>USE_HAL_DRIVER,STM32F103xB</Define>
               <Undefine />
-              <IncludePath>../Core/Inc;../USB_DEVICE/App;../USB_DEVICE/Target;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3;../Middlewares/ST/STM32_USB_Device_Library/Core/Inc;../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../../../../embedi-robot/Embedi/algorithms/include;../../../../embedi-robot/Embedi/drivers/peripheral/include;../../../../embedi-robot/Embedi/drivers/platform/include;../../../../embedi-robot/Embedi/include;../../../../embedi-robot/Embedi/system/include;../../../../embedi-robot/Embedi/utils/include;../../../../embedi-robot/Embedi/include/project/remoter</IncludePath>
+              <IncludePath>../Core/Inc;../USB_DEVICE/App;../USB_DEVICE/Target;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3;../Middlewares/ST/STM32_USB_Device_Library/Core/Inc;../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../../../../embedi-robot/Embedi/algorithms/include;../../../../embedi-robot/Embedi/drivers/peripheral/include;../../../../embedi-robot/Embedi/drivers/platform/include;../../../../embedi-robot/Embedi/include;../../../../embedi-robot/Embedi/system/include;../../../../embedi-robot/Embedi/utils/include;../../../../embedi-robot/Embedi/include/project/remoter;../../../../embedi-robot/Embedi/drivers/protocol/include</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -701,11 +701,6 @@
               <FilePath>..\..\..\..\embedi-robot\Embedi\algorithms\math\embedi_math.c</FilePath>
             </File>
             <File>
-              <FileName>embedi_2_4g.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\2_4G\embedi_2_4g.c</FilePath>
-            </File>
-            <File>
               <FileName>embedi_pid.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\embedi-robot\Embedi\algorithms\pid\embedi_pid.c</FilePath>
@@ -804,6 +799,31 @@
               <FileName>embedi_printf.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\platform\embedi_printf.c</FilePath>
+            </File>
+            <File>
+              <FileName>embedi_protocol.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\protocol\embedi_protocol.c</FilePath>
+            </File>
+            <File>
+              <FileName>embedi_wireless.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\wireless\embedi_wireless.c</FilePath>
+            </File>
+            <File>
+              <FileName>embedi_host.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\wireless\2_4g\embedi_host.c</FilePath>
+            </File>
+            <File>
+              <FileName>embedi_remote.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\wireless\2_4g\embedi_remote.c</FilePath>
+            </File>
+            <File>
+              <FileName>embedi_nrf24l01.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\wireless\2_4g\nrf24l01\embedi_nrf24l01.c</FilePath>
             </File>
           </Files>
         </Group>

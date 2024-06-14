@@ -150,56 +150,7 @@
           <Name>-U-O142 -O2254 -S0 -C0 -N00("ARM CoreSight SW-DP") -D00(2BA01477) -L00(0) -TO18 -TC10000000 -TP21 -TDS8007 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -FO7 -FD20000000 -FC800 -FN1 -FF0STM32F4xx_512.FLM -FS08000000 -FL080000 -FP0($$Device:STM32F411CE$CMSIS\Flash\STM32F4xx_512.FLM)</Name>
         </SetRegEntry>
       </TargetDriverDllRegistry>
-      <Breakpoint>
-        <Bp>
-          <Number>0</Number>
-          <Type>0</Type>
-          <LineNumber>3388</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134246090</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\imu\mpu6050\inv_mpu.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>1</Number>
-          <Type>0</Type>
-          <LineNumber>3107</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134252382</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\imu\mpu6050\inv_mpu.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>2</Number>
-          <Type>0</Type>
-          <LineNumber>31</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134242526</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\barometer\spl06\embedi_spl06.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-      </Breakpoint>
+      <Breakpoint/>
       <WatchWindow1>
         <Ww>
           <count>0</count>
@@ -215,6 +166,11 @@
           <count>2</count>
           <WinNumber>1</WinNumber>
           <ItemText>st.chip_cfg.compass_addr</ItemText>
+        </Ww>
+        <Ww>
+          <count>3</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>uart2_buff</ItemText>
         </Ww>
       </WatchWindow1>
       <Tracepoint>
@@ -1187,8 +1143,8 @@
       <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\2_4G\embedi_2_4g.c</PathWithFileName>
-      <FilenameWithoutPath>embedi_2_4g.c</FilenameWithoutPath>
+      <PathWithFileName>..\..\..\..\embedi-robot\Embedi\drivers\platform\embedi_spi.c</PathWithFileName>
+      <FilenameWithoutPath>embedi_spi.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1200,8 +1156,8 @@
       <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\embedi-robot\Embedi\drivers\platform\embedi_spi.c</PathWithFileName>
-      <FilenameWithoutPath>embedi_spi.c</FilenameWithoutPath>
+      <PathWithFileName>..\..\..\..\embedi-robot\Embedi\drivers\platform\embedi_printf.c</PathWithFileName>
+      <FilenameWithoutPath>embedi_printf.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1213,8 +1169,60 @@
       <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\embedi-robot\Embedi\drivers\platform\embedi_printf.c</PathWithFileName>
-      <FilenameWithoutPath>embedi_printf.c</FilenameWithoutPath>
+      <PathWithFileName>..\..\..\..\embedi-robot\Embedi\drivers\protocol\embedi_protocol.c</PathWithFileName>
+      <FilenameWithoutPath>embedi_protocol.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>9</GroupNumber>
+      <FileNumber>70</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <Focus>0</Focus>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\wireless\embedi_wireless.c</PathWithFileName>
+      <FilenameWithoutPath>embedi_wireless.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>9</GroupNumber>
+      <FileNumber>71</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <Focus>0</Focus>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\wireless\2_4g\embedi_host.c</PathWithFileName>
+      <FilenameWithoutPath>embedi_host.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>9</GroupNumber>
+      <FileNumber>72</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <Focus>0</Focus>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\wireless\2_4g\embedi_remote.c</PathWithFileName>
+      <FilenameWithoutPath>embedi_remote.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>9</GroupNumber>
+      <FileNumber>73</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <Focus>0</Focus>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\wireless\2_4g\nrf24l01\embedi_nrf24l01.c</PathWithFileName>
+      <FilenameWithoutPath>embedi_nrf24l01.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
