@@ -800,6 +800,11 @@
               <FileType>1</FileType>
               <FilePath>..\..\..\..\embedi-robot\Embedi\application\remoter\embedi_remoter.c</FilePath>
             </File>
+            <File>
+              <FileName>embedi_printf.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\platform\embedi_printf.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
