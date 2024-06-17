@@ -60,6 +60,9 @@ void Error_Handler(void);
 #define NRF_INT_Pin GPIO_PIN_13
 #define NRF_INT_GPIO_Port GPIOC
 #define NRF_INT_EXTI_IRQn EXTI15_10_IRQn
+#define KEY_R_INT_Pin GPIO_PIN_15
+#define KEY_R_INT_GPIO_Port GPIOC
+#define KEY_R_INT_EXTI_IRQn EXTI15_10_IRQn
 #define VBAT_ADC_Pin GPIO_PIN_0
 #define VBAT_ADC_GPIO_Port GPIOA
 #define JST1_ROLL_ADC_Pin GPIO_PIN_1
@@ -74,6 +77,9 @@ void Error_Handler(void);
 #define JST2_ROLL_ADC_GPIO_Port GPIOB
 #define JST2_PITCH_ADC_Pin GPIO_PIN_1
 #define JST2_PITCH_ADC_GPIO_Port GPIOB
+#define KEY_L_INT_Pin GPIO_PIN_11
+#define KEY_L_INT_GPIO_Port GPIOB
+#define KEY_L_INT_EXTI_IRQn EXTI15_10_IRQn
 #define LED0_Pin GPIO_PIN_7
 #define LED0_GPIO_Port GPIOB
 

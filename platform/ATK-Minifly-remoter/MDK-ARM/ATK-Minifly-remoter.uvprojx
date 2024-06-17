@@ -913,19 +913,9 @@
               <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\protocol\embedi_protocol.c</FilePath>
             </File>
             <File>
-              <FileName>embedi_wireless.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\wireless\embedi_wireless.c</FilePath>
-            </File>
-            <File>
               <FileName>embedi_host.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\wireless\2_4g\embedi_host.c</FilePath>
-            </File>
-            <File>
-              <FileName>embedi_remote.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\wireless\2_4g\embedi_remote.c</FilePath>
             </File>
             <File>
               <FileName>embedi_nrf24l01.c</FileName>
@@ -941,6 +931,16 @@
               <FileName>embedi_joystick.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\joystick\embedi_joystick.c</FilePath>
+            </File>
+            <File>
+              <FileName>embedi_battery.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\battery\embedi_battery.c</FilePath>
+            </File>
+            <File>
+              <FileName>embedi_dispatch.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\system\embedi_dispatch.c</FilePath>
             </File>
           </Files>
         </Group>
