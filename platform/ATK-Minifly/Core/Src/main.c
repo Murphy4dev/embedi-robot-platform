@@ -420,7 +420,8 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(GPIOA, GREENLED_Pin|OPTICAL_CNS_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, OPTICAL_EN_Pin|SCL_Pin|SDA_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, OPTICAL_EN_Pin|LASER_SDA_Pin|LASER_SCL_Pin|SCL_Pin
+                          |SDA_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pins : GREENLED_Pin OPTICAL_CNS_Pin */
   GPIO_InitStruct.Pin = GREENLED_Pin|OPTICAL_CNS_Pin;
@@ -436,8 +437,8 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(OPTICAL_EN_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : SCL_Pin SDA_Pin */
-  GPIO_InitStruct.Pin = SCL_Pin|SDA_Pin;
+  /*Configure GPIO pins : LASER_SDA_Pin LASER_SCL_Pin SCL_Pin SDA_Pin */
+  GPIO_InitStruct.Pin = LASER_SDA_Pin|LASER_SCL_Pin|SCL_Pin|SDA_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;

@@ -65,6 +65,10 @@ void Error_Handler(void);
 #define OPTICAL_EN_GPIO_Port GPIOB
 #define OPTICAL_CNS_Pin GPIO_PIN_8
 #define OPTICAL_CNS_GPIO_Port GPIOA
+#define LASER_SDA_Pin GPIO_PIN_4
+#define LASER_SDA_GPIO_Port GPIOB
+#define LASER_SCL_Pin GPIO_PIN_5
+#define LASER_SCL_GPIO_Port GPIOB
 #define SCL_Pin GPIO_PIN_8
 #define SCL_GPIO_Port GPIOB
 #define SDA_Pin GPIO_PIN_9

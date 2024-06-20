@@ -929,6 +929,16 @@
               <FileType>1</FileType>
               <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\optical_flow\pmw3901\embedi_pmw3901.c</FilePath>
             </File>
+            <File>
+              <FileName>embedi_laser.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\laser\embedi_laser.c</FilePath>
+            </File>
+            <File>
+              <FileName>embedi_vl53l0x.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\laser\vl53l0x\embedi_vl53l0x.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
