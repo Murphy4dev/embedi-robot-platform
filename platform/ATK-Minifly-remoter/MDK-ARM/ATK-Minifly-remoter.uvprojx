@@ -942,6 +942,11 @@
               <FileType>1</FileType>
               <FilePath>..\..\..\..\embedi-robot\Embedi\system\embedi_dispatch.c</FilePath>
             </File>
+            <File>
+              <FileName>embedi_iir.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\algorithms\filter\embedi_iir.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
