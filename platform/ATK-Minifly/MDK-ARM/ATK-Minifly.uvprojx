@@ -835,11 +835,6 @@
               <FilePath>..\..\..\..\embedi-robot\Embedi\utils\embedi_scope.c</FilePath>
             </File>
             <File>
-              <FileName>embedi_quadrotor.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\application\quadrotor\embedi_quadrotor.c</FilePath>
-            </File>
-            <File>
               <FileName>embedi_baro.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\barometer\embedi_baro.c</FilePath>
@@ -943,6 +938,16 @@
               <FileName>embedi_velocity.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\embedi-robot\Embedi\algorithms\velocity\embedi_velocity.c</FilePath>
+            </File>
+            <File>
+              <FileName>embedi_motion.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\algorithms\velocity\embedi_motion.c</FilePath>
+            </File>
+            <File>
+              <FileName>embedi_quadrotor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\application\quadrotor\embedi_quadrotor.c</FilePath>
             </File>
           </Files>
         </Group>
