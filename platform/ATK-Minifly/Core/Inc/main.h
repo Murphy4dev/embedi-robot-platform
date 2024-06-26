@@ -59,6 +59,9 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define IMU_INT_Pin GPIO_PIN_4
+#define IMU_INT_GPIO_Port GPIOA
+#define IMU_INT_EXTI_IRQn EXTI4_IRQn
 #define GREENLED_Pin GPIO_PIN_6
 #define GREENLED_GPIO_Port GPIOA
 #define OPTICAL_EN_Pin GPIO_PIN_0

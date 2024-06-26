@@ -423,6 +423,12 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(GPIOB, OPTICAL_EN_Pin|LASER_SDA_Pin|LASER_SCL_Pin|SCL_Pin
                           |SDA_Pin, GPIO_PIN_RESET);
 
+  /*Configure GPIO pin : IMU_INT_Pin */
+  GPIO_InitStruct.Pin = IMU_INT_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
+  HAL_GPIO_Init(IMU_INT_GPIO_Port, &GPIO_InitStruct);
+
   /*Configure GPIO pins : GREENLED_Pin OPTICAL_CNS_Pin */
   GPIO_InitStruct.Pin = GREENLED_Pin|OPTICAL_CNS_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
@@ -443,6 +449,10 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_PULLUP;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /* EXTI interrupt init*/
+  HAL_NVIC_SetPriority(EXTI4_IRQn, 5, 0);
+  HAL_NVIC_EnableIRQ(EXTI4_IRQn);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */
