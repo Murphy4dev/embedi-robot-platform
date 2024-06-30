@@ -752,8 +752,33 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>Embedi</GroupName>
+          <GroupName>Embedi/application</GroupName>
           <Files>
+            <File>
+              <FileName>embedi_quadrotor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\application\quadrotor\embedi_quadrotor.c</FilePath>
+            </File>
+            <File>
+              <FileName>embedi_remoter.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\application\remoter\embedi_remoter.c</FilePath>
+            </File>
+            <File>
+              <FileName>embedi_wheels.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\application\wheels\embedi_wheels.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Embedi/algorithms</GroupName>
+          <Files>
+            <File>
+              <FileName>embedi_iir.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\algorithms\filter\embedi_iir.c</FilePath>
+            </File>
             <File>
               <FileName>embedi_2d_kalman.c</FileName>
               <FileType>1</FileType>
@@ -775,34 +800,59 @@
               <FilePath>..\..\..\..\embedi-robot\Embedi\algorithms\pid\embedi_pid.c</FilePath>
             </File>
             <File>
-              <FileName>embedi_wheels.c</FileName>
+              <FileName>embedi_motion.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\application\wheels\embedi_wheels.c</FilePath>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\algorithms\velocity\embedi_motion.c</FilePath>
             </File>
             <File>
-              <FileName>embedi_delay.c</FileName>
+              <FileName>embedi_velocity.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\platform\embedi_delay.c</FilePath>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\algorithms\velocity\embedi_velocity.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Embedi/system</GroupName>
+          <Files>
+            <File>
+              <FileName>embedi_dispatch.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\system\embedi_dispatch.c</FilePath>
             </File>
             <File>
-              <FileName>embedi_flash.c</FileName>
+              <FileName>embedi_module_init.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\platform\embedi_flash.c</FilePath>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\system\embedi_module_init.c</FilePath>
             </File>
             <File>
-              <FileName>embedi_i2c.c</FileName>
+              <FileName>embedi_system.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\platform\embedi_i2c.c</FilePath>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\system\embedi_system.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Embedi/drivers/peripheral</GroupName>
+          <Files>
+            <File>
+              <FileName>embedi_baro.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\barometer\embedi_baro.c</FilePath>
             </File>
             <File>
-              <FileName>embedi_uart.c</FileName>
+              <FileName>embedi_spl06.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\platform\embedi_uart.c</FilePath>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\barometer\spl06\embedi_spl06.c</FilePath>
             </File>
             <File>
-              <FileName>embedi_motor.c</FileName>
+              <FileName>embedi_bmp280.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\motor\embedi_motor.c</FilePath>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\barometer\bmp280\embedi_bmp280.c</FilePath>
+            </File>
+            <File>
+              <FileName>embedi_battery.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\battery\embedi_battery.c</FilePath>
             </File>
             <File>
               <FileName>embedi_imu.c</FileName>
@@ -820,54 +870,34 @@
               <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\imu\mpu6050\inv_mpu_dmp_motion_driver.c</FilePath>
             </File>
             <File>
-              <FileName>embedi_module_init.c</FileName>
+              <FileName>embedi_joystick.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\system\embedi_module_init.c</FilePath>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\joystick\embedi_joystick.c</FilePath>
             </File>
             <File>
-              <FileName>embedi_system.c</FileName>
+              <FileName>embedi_laser.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\system\embedi_system.c</FilePath>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\laser\embedi_laser.c</FilePath>
             </File>
             <File>
-              <FileName>embedi_scope.c</FileName>
+              <FileName>embedi_vl53l0x.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\utils\embedi_scope.c</FilePath>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\laser\vl53l0x\embedi_vl53l0x.c</FilePath>
             </File>
             <File>
-              <FileName>embedi_baro.c</FileName>
+              <FileName>embedi_motor.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\barometer\embedi_baro.c</FilePath>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\motor\embedi_motor.c</FilePath>
             </File>
             <File>
-              <FileName>embedi_bmp280.c</FileName>
+              <FileName>embedi_optical_flow.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\barometer\bmp280\embedi_bmp280.c</FilePath>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\optical_flow\embedi_optical_flow.c</FilePath>
             </File>
             <File>
-              <FileName>embedi_spl06.c</FileName>
+              <FileName>embedi_pmw3901.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\barometer\spl06\embedi_spl06.c</FilePath>
-            </File>
-            <File>
-              <FileName>embedi_remoter.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\application\remoter\embedi_remoter.c</FilePath>
-            </File>
-            <File>
-              <FileName>embedi_spi.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\platform\embedi_spi.c</FilePath>
-            </File>
-            <File>
-              <FileName>embedi_printf.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\platform\embedi_printf.c</FilePath>
-            </File>
-            <File>
-              <FileName>embedi_protocol.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\protocol\embedi_protocol.c</FilePath>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\optical_flow\pmw3901\embedi_pmw3901.c</FilePath>
             </File>
             <File>
               <FileName>embedi_wireless.c</FileName>
@@ -889,65 +919,65 @@
               <FileType>1</FileType>
               <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\wireless\2_4g\nrf24l01\embedi_nrf24l01.c</FilePath>
             </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Embedi/drivers/platform</GroupName>
+          <Files>
             <File>
               <FileName>embedi_adc.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\platform\embedi_adc.c</FilePath>
             </File>
             <File>
-              <FileName>embedi_joystick.c</FileName>
+              <FileName>embedi_delay.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\joystick\embedi_joystick.c</FilePath>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\platform\embedi_delay.c</FilePath>
             </File>
             <File>
-              <FileName>embedi_dispatch.c</FileName>
+              <FileName>embedi_flash.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\system\embedi_dispatch.c</FilePath>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\platform\embedi_flash.c</FilePath>
             </File>
             <File>
-              <FileName>embedi_battery.c</FileName>
+              <FileName>embedi_i2c.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\battery\embedi_battery.c</FilePath>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\platform\embedi_i2c.c</FilePath>
             </File>
             <File>
-              <FileName>embedi_iir.c</FileName>
+              <FileName>embedi_printf.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\algorithms\filter\embedi_iir.c</FilePath>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\platform\embedi_printf.c</FilePath>
             </File>
             <File>
-              <FileName>embedi_optical_flow.c</FileName>
+              <FileName>embedi_spi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\optical_flow\embedi_optical_flow.c</FilePath>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\platform\embedi_spi.c</FilePath>
             </File>
             <File>
-              <FileName>embedi_pmw3901.c</FileName>
+              <FileName>embedi_uart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\optical_flow\pmw3901\embedi_pmw3901.c</FilePath>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\platform\embedi_uart.c</FilePath>
             </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Embedi/drivers/protocol</GroupName>
+          <Files>
             <File>
-              <FileName>embedi_laser.c</FileName>
+              <FileName>embedi_protocol.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\laser\embedi_laser.c</FilePath>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\protocol\embedi_protocol.c</FilePath>
             </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Embedi/utils</GroupName>
+          <Files>
             <File>
-              <FileName>embedi_vl53l0x.c</FileName>
+              <FileName>embedi_scope.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\laser\vl53l0x\embedi_vl53l0x.c</FilePath>
-            </File>
-            <File>
-              <FileName>embedi_velocity.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\algorithms\velocity\embedi_velocity.c</FilePath>
-            </File>
-            <File>
-              <FileName>embedi_motion.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\algorithms\velocity\embedi_motion.c</FilePath>
-            </File>
-            <File>
-              <FileName>embedi_quadrotor.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\application\quadrotor\embedi_quadrotor.c</FilePath>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\utils\embedi_scope.c</FilePath>
             </File>
           </Files>
         </Group>
