@@ -829,6 +829,11 @@
               <FileType>1</FileType>
               <FilePath>..\..\..\..\embedi-robot\Embedi\system\embedi_system.c</FilePath>
             </File>
+            <File>
+              <FileName>embedi_protocol.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\embedi-robot\Embedi\system\embedi_protocol.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -910,11 +915,6 @@
               <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\wireless\2_4g\embedi_host.c</FilePath>
             </File>
             <File>
-              <FileName>embedi_remote.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\wireless\2_4g\embedi_remote.c</FilePath>
-            </File>
-            <File>
               <FileName>embedi_nrf24l01.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\peripheral\wireless\2_4g\nrf24l01\embedi_nrf24l01.c</FilePath>
@@ -958,16 +958,6 @@
               <FileName>embedi_uart.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\platform\embedi_uart.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>Embedi/drivers/protocol</GroupName>
-          <Files>
-            <File>
-              <FileName>embedi_protocol.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\embedi-robot\Embedi\drivers\protocol\embedi_protocol.c</FilePath>
             </File>
           </Files>
         </Group>
